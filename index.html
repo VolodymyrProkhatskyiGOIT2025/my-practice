@@ -4,28 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">Product</a>
-      <nav>
-        <ul>
-          <li>
-            <p>Product</p>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-logo" href="./index.html">Product</a>
+          <ul class="header-list">
+            <li class="header-nav-list">
+              <a class="header-nav-link current" href="">Product</a>
+            </li>
+            <li class="header-nav-list">
+              <a class="header-nav-link" href="">Pricing</a>
+            </li>
+            <li class="header-nav-list">
+              <a class="header-nav-link" href="">Customers</a>
+            </li>
+            <li class="header-nav-list">
+              <a class="header-nav-link" href="">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-btn-list">
+          <li class="header-btn-list">
+            <button class="header-btn sign-in" type="button">Sign In</button>
           </li>
-          <li>
-            <p>Pricing</p>
-          </li>
-          <li>
-            <p>Customers</p>
-          </li>
-          <li>
-            <p>Resources</p>
+          <li class="header-btn-list">
+            <button class="header-btn sign-up" type="button">Sign Up</button>
           </li>
         </ul>
-      </nav>
-      <button type="button">Sign In</button>
-      <button type="button">Sign Up</button>
+      </div>
     </header>
     <main>
       <section>
